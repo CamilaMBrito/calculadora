@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.fundo{
+    background-color: #F7F7F7;
+    height: 100vh;
+    color: white;
+}
+
+.banner{
+    height: 85px;
+}
+
+.logo{
+    position: relative;
+    top: 5px;
+    margin-left: 25px;
+}
+
+hr{
+    margin: 15px 0;
+}
+
+.hr1 {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, #CCC, transparent);  
+  }
+
+.blocotexto{
+    text-align: center;
+    color: #1C1C1C;
+    margin-top: 50px;
+}
+
+.calculadora{
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.btn{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+    cursor: pointer;
+    background-color: #1C1C1C;
+    color: white;
+    border: none;
+    margin: 3px;
+}
+
+.btncolor{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+    cursor: pointer;
+    color: white;
+    border:none;
+    background-color: #6A5ACD;
+    margin: 3px;
+}
+
+#limpbtn{
+    width: 106px;
+    margin: 3px;
+    height: 50px;
+    border-radius: 3px;
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+    cursor: pointer;
+    background-color: #6A5ACD;
+    color: white;
+    border:none;
+}
+
+.btn:hover{
+   background-color: black; 
+}
+
+.btncolor:hover{
+    background-color: #483D8B;
+}
+
+#limpbtn:hover{
+    background-color: #483D8B;
+}
+
+#resultado{
+    width: 220px;
+    height: 50px;
+    margin: 5px;
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+    background-color: #363636;
+    color: white;
+    display: flex;
+    align-items : center;
+    justify-content: right;
+}
